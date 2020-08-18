@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 const UseEffect = () => {
     const [count, setCount] = useState(0)
     const [num, setNum] = useState(0)
-    const [datas, setData] = useState('')
+    const [datas, setData] = useState({})
     useEffect(() => {
         document.title = `you click count ${count} times`
         setCount(count + 1)

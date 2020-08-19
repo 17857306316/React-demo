@@ -1,11 +1,11 @@
 import React, { useState, useContext } from 'react';
 const MyContext = React.createContext({})
-
 const UseContext = () => {
     const [key, setKey] = useState('')
     return (
         <div className='container'>
             <h1>共享状态钩子</h1>
+            父组件共享，子组件获取
             <button className="btn btn-outline-primary" onClick={() => {
                 setKey(' Usecontext')
             }}>get value</button>
@@ -15,6 +15,7 @@ const UseContext = () => {
         </div>
     )
 }
+
 
 export default UseContext;
 

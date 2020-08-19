@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+  width: 500px;
+  height: 500px;
+  padding: 0;
+}
+.child {
+  width: 10px;
+  height: 10px;
+  float: left;
+  box-sizing: border-box;
+}
+.color{
+    background-color: rgb(255, 38, 0);
+}

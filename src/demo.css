@@ -6,8 +6,10 @@
     background-color: antiquewhite;
     transform: translate(-50%,-50%); position: absolute; top: 50%; left: 50%;
 } 水平垂直居中*/
-html{
-    display: table-cell; text-align: center; vertical-align: middle;
+body{
+    display: flex;
+    justify-content: center;
+    
 }
 .box{
     width: 850px;
@@ -27,6 +29,7 @@ html{
     background-color: rgb(184, 219, 240);
     flex: 1;
     border: 1px solid #fff;
+    cursor: pointer;
 }
 .active{
     background-color: rgb(110, 190, 255);

@@ -1,3 +1,5 @@
+里面都是一些react学习和练手的小demo，简书里面写了笔记
+配合笔记看效果更好哦[我的笔记](https://www.jianshu.com/u/00a73273b522)https://www.jianshu.com/u/00a73273b522
 这个项目是用 [Create React App](https://github.com/facebook/create-react-app).
 
 
